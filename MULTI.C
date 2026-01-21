@@ -34,7 +34,7 @@ for(i=0;i<3;i++)
 {
 for(j=0;j<3;j++)
 {
-s[i][j]+=s[i][j]*b[i][j];
+s[i][j]+=a[i][j]*b[i][j];
 }}
 printf("multiplication  of elements are: \n");
 for(i=0;i<3;i++)
@@ -48,5 +48,6 @@ printf("\n");
 getch();
 return 0;
 }
+
 
 
